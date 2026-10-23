@@ -32,13 +32,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:22p
 .contact{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:56px 0}.contact h2{font:normal 36px var(--site-font-heading);margin:9px 0}.contact p{font-size:13px;opacity:.75;margin:0}.contact-links{display:flex;gap:10px;flex-wrap:wrap}footer{border-top:1px solid color-mix(in srgb,var(--site-on-background) 16%,transparent);padding:20px 0;display:flex;justify-content:space-between;gap:16px;font-size:10px;letter-spacing:.05em;opacity:.7}
 @media(max-width:760px){nav{gap:12px}nav a{font-size:11px}.hero{grid-template-columns:1fr;padding:48px 0 55px;gap:28px}h1{font-size:50px}.artboard{min-height:320px}.gallery{grid-template-columns:repeat(2,1fr)}.section-head{align-items:start;flex-direction:column}.about-grid,.link-panel{grid-template-columns:1fr;gap:22px}.contact{align-items:flex-start;flex-direction:column}.section{padding:48px 0}}
 @media(max-width:440px){.wrap{width:calc(100% - 28px)}header{align-items:flex-start;gap:12px}.logo{font-size:11px}nav{gap:9px;flex-wrap:wrap;justify-content:flex-end}nav a{font-size:10px}.gallery{grid-template-columns:1fr 1fr;gap:9px}.piece-meta{padding:11px}.piece-meta h3{font-size:16px}.piece-visual{padding:8px}.section h2{font-size:32px}h1{font-size:44px}.link-panel{padding:22px}footer{flex-direction:column}}
-.piece-visual img {
-  width: 100%;
-  height: 100%;
-  max-height: 260px;
-  object-fit: contain;
-  display: block;
-}
+
 </style>
 </head>
 <body><main id="app">
@@ -47,11 +41,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:22p
 <div class="artboard" aria-label="Original decorative illustration"><svg class="artwork" viewBox="0 0 340 360" role="img" aria-label="Stylized colorful artist portrait illustration"><path d="M47 310 Q35 226 82 196 L112 179 L228 179 L263 210 Q295 258 286 310Z" fill="#E95D3F"/><path d="M114 180 L112 220 L171 263 L228 218 L226 178Z" fill="#F6C9A8"/><path d="M91 116 Q84 51 158 43 Q233 39 247 113 L238 181 Q219 223 170 226 Q119 220 100 178Z" fill="#8D4D35"/><path d="M104 119 Q108 67 158 63 Q213 59 229 111 L223 155 Q208 191 169 195 Q126 190 110 155Z" fill="#C9835A"/><path d="M105 119 Q91 78 124 53 Q157 25 199 48 Q235 60 237 108 L215 94 L194 70 Q166 98 123 96Z" fill="#28231F"/><path d="M125 126 Q138 117 151 126 M185 126 Q198 117 211 126" fill="none" stroke="#28231F" stroke-width="5" stroke-linecap="round"/><ellipse cx="140" cy="138" rx="5" ry="7" fill="#28231F"/><ellipse cx="198" cy="138" rx="5" ry="7" fill="#28231F"/><path d="M160 142 L153 163 L169 165" fill="none" stroke="#8D4D35" stroke-width="4" stroke-linecap="round"/><path d="M146 177 Q169 194 193 175" fill="none" stroke="#28231F" stroke-width="4" stroke-linecap="round"/><path d="M111 217 L170 263 L229 217 L244 310 L96 310Z" fill="#F3D9A6"/><path d="M144 240 L170 263 L196 240 L187 310 L153 310Z" fill="#E95D3F"/><path d="M91 226 L59 273 L84 289 L117 249 M247 225 L278 268 L255 289 L222 250" fill="#C9835A" stroke="#8D4D35" stroke-width="4"/><path d="M58 273 L84 289 M278 268 L255 289" stroke="#28231F" stroke-width="4" stroke-linecap="round"/><circle cx="265" cy="74" r="20" fill="#E95D3F"/><path d="M42 116 L61 98 L79 116 L61 134Z" fill="#F8F4ED"/><path d="M254 153 l14 -14 l14 14 l-14 14Z" fill="#F8F4ED"/><path d="M59 177 q12 -18 24 0 q-12 18 -24 0Z" fill="#E95D3F"/></svg><span class="art-caption">Made with imagination · 01</span></div></section>
 <section class="section" id="work"><div class="section-head"><div><div class="eyebrow">Selected creations</div><h2>A little bit of everything.</h2></div><p>Selected artwork by Dishon Yoweri Odidi. Open any piece to view it in full size.</p></div><div class="filters" role="group" aria-label="Filter artwork"><button class="filter" aria-pressed="true" data-filter="all">All work</button><button class="filter" aria-pressed="false" data-filter="illustration">Illustration</button><button class="filter" aria-pressed="false" data-filter="sketch">Sketches</button><button class="filter" aria-pressed="false" data-filter="cartoon">Cartoons</button></div>
 <div class="gallery">
- <article class="piece" data-category="illustration">
-  <div class="piece-visual">
-    <img src="images/new-artwork-01.png"
-         alt="Description of my artwork"
-         loading="lazy">
+ 
   </div>
   <div class="piece-meta">
     <span class="tag">Illustration</span>
